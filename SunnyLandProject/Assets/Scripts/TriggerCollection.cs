@@ -31,6 +31,6 @@ public class TriggerCollection : MonoBehaviour
             collected = true;
              OnCollectEvent.Invoke();
             Destroy(gameObject);    
-        }            
+        }
     }
 }
